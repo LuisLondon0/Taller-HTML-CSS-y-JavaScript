@@ -1,0 +1,52 @@
+.contenido {
+    margin: 15px auto 15px auto;
+    border: solid;
+    width: 16%;
+    padding: 0 15px 15px 15px;
+    background-color: rgb(21, 147, 197);
+    border-radius: 15px;
+    font-family: "Verdana";
+    font-weight: bold;
+}
+
+.fondo {
+    border: solid;
+    background-color: rgb(0, 255, 200);
+    border-radius: 15px;
+}
+
+.mensaje {
+    min-height: 100px;
+}
+
+input {
+    min-width: 200px;
+}
+
+input:invalid:required {
+    background-color: rgba(228, 124, 124, 0.76);
+}
+
+input:valid:required {
+    background-color: rgba(84, 238, 110, 0.76);
+}
+
+textarea:invalid:required {
+    background-color: rgba(228, 124, 124, 0.76);
+}
+
+textarea:valid:required {
+    background-color: rgba(84, 238, 110, 0.76);
+}
+
+body {
+    background-color: black;
+}
+
+h2 {
+    color: white;
+}
+
+label {
+    color: white;
+}
